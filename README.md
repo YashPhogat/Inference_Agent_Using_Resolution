@@ -19,20 +19,11 @@ or a negated atomic sentence.
 
 Note:
 1. & denotes the conjunction operator.
-2. | denotes the disjunction operator. It will not appear in the queries nor in the KB given as
-input. But you will likely need it to create your proofs.
+2. | denotes the disjunction operator. 
 3. => denotes the implication operator.
 4. ~ denotes the negation operator.
 5. No other operators besides &, =>, and ~ are used in the knowledge base.
 6. There will be no parentheses in the KB except as used to denote arguments of predicates.
- 
 7. Variables are denoted by a single lowercase letter.
-8. All predicates (such as HighBP) and constants (such as Alice) are case sensitive
-alphabetical strings that begin with uppercase letters.
-9. Each predicate takes at least one argument. Predicates will take at most 25 arguments. A
-given predicate name will not appear with different number of arguments.
-10. There will be at most 10 queries and 100 sentences in the knowledge base.
-11. See the sample input below for spacing patterns.
-12. You can assume that the input format is exactly as it is described.
-13. There will be no syntax errors in the given input.
-14. The KB will be true (i.e., will not contain contradictions).
+8. All predicates and constants are case sensitive alphabetical strings that begin with uppercase letters.
+9. Each predicate takes at least one argument. Predicates will take at most 25 arguments. A given predicate name will not appear with different number of arguments.
