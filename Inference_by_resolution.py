@@ -186,7 +186,7 @@ def unify(long_sentence, one_query) :
         #     break
         # print("List", pred_com_param_list)
         if pred == pred_com :
-            # replacement = {}
+            replacement = {}
             pred_com_param_list = re.search("\(.*?\)", com).group(0)[1 :-1].split(",")
             for val in pred_com_param_list :
                 val = val.replace(' ', '')
@@ -450,7 +450,7 @@ final_result = ''
 for q in query :
     # print(q)
     parent_dict = {}
-    replacement = {}
+#     replacement = {}
     if q[0] == "~":
 
         use_query = q[1:]
