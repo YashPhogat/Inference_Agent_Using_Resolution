@@ -1,5 +1,6 @@
 # Inference_Agent_Using_Resolution
-This is an inference engine that for a given Knowledge Base and some queries, infers if the queries are True backed by the facts in the knowledge base.
+This is an inference engine that for a given Knowledge Base and some queries, infers if the queries are True or False 
+backed by the facts in the knowledge base.
 
 Problem Format:
 
