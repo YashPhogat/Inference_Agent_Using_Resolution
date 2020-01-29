@@ -27,3 +27,6 @@ Note:
 7. Variables are denoted by a single lowercase letter.
 8. All predicates and constants are case sensitive alphabetical strings that begin with uppercase letters.
 9. Each predicate takes at least one argument. Predicates will take at most 25 arguments. A given predicate name will not appear with different number of arguments.
+
+
+As this was a class project so I also attached a sample input file for understanding the restrictions in the input format addressing a specific problem . The problem text is also attached for reference.
